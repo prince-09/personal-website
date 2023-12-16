@@ -56,7 +56,14 @@ const Navbar = () => {
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => {
+                setActive(nav.title)
+                console.log("Resum ----- ")
+                if (nav.id === 'resume') {
+                  console.log("Resum ----- ")
+                  window.open('src/assets/Prince Sinha - Resume.pdf', '_blank')
+                }
+              }}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -86,6 +93,11 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
+                    console.log("Resum ----- ")
+                    if (nav.id === 'resume') {
+                      console.log("Resum ----- ")
+                      window.open('https://tinyurl.com/prince-sinha', '_blank')
+                    }
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
