@@ -61,7 +61,7 @@ const Navbar = () => {
                 console.log("Resum ----- ")
                 if (nav.id === 'resume') {
                   console.log("Resum ----- ")
-                  window.open('src/assets/Prince Sinha - Resume.pdf', '_blank')
+                  window.open('https://tinyurl.com/prince-sinha', '_blank')
                 }
               }}
             >
