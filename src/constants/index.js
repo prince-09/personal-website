@@ -144,15 +144,7 @@ const testimonials = [
     designation: "Financial Mathematics, NCSU",
     company: "",
     image: "https://www.linkedin.com/in/ankitsaw/overlay/photo/",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  }
 ];
 
 const projects = [
